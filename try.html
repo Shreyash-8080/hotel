@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Now - Luxury Hotel</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-image: url(/f.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+    }
+    .container {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 50px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+    .booking-form {
+      background: rgba(255, 255, 255, 0.8);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+    .btn-custom {
+      background-color: #d4af37;
+      border-color: #d4af37;
+      color: #fff;
+      font-size: 1.2em;
+      padding: 10px 20px;
+      border-radius: 25px;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+    .btn-custom:hover {
+      background-color: #c49b33;
+      border-color: #c49b33;
+    }
+    .header-text {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .header-text h1 {
+      font-size: 3em;
+      font-weight: bold;
+    }
+    .header-text p {
+      font-size: 1.2em;
+    }
+    .form-group label {
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="header-text">
+      <h1>Welcome to Our Luxury Hotel</h1>
+      <p>Experience the finest hospitality and elegance</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="booking-form">
+          <div class="text-center mb-4">
+            <h2>Book Your Luxury Stay</h2>
+          </div>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+            </div>
+            <div class="form-group">
+              <label for="checkin">Check-In Date</label>
+              <input type="date" class="form-control" id="checkin">
+            </div>
+            <div class="form-group">
+              <label for="checkout">Check-Out Date</label>
+              <input type="date" class="form-control" id="checkout">
+            </div>
+            <button type="submit" class="btn btn-custom btn-block">Book Now</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
